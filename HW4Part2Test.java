@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class HW4Part1Test {
+public class HW4Part2Test {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		int test_cases = 3;
@@ -28,9 +28,9 @@ public class HW4Part1Test {
 			
 	        HW4 hw4 = new HW4();
 			
-	        System.out.println(hw4.totalLinkCost(graph));
-	        System.out.println(hw4.cheapestNetwork(graph.asArray(false)));
-	        System.out.println(hw4.savedAmount(graph));
+		System.out.println(hw4.totalTransitTime(graph));
+		System.out.println(hw4.cheapestTransitTime(graph));
+		System.out.println(hw4.timeIncrease(graph));
 		}
 		scan.close();
 	}
