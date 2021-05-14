@@ -28,29 +28,30 @@ public class HW4 {
 		HW4 hw4 = new HW4();
 		scan.close();
 		
-		System.out.println(hw4.totalLinkCost(graph));
-		System.out.println(hw4.cheapestNetwork(graph.asArray(false)));
-		System.out.println(hw4.savedAmount(graph));
+		System.out.println(hw4.totalTransitTime(graph));
+		System.out.println(hw4.cheapestTransitTime(graph));
+		System.out.println(hw4.timeIncrease(graph));
 	
 	}
 	
 	// You can add any methods you need, both to this file and Graph.java file
 
 	// The method for task 1 
-	int totalLinkCost(Graph graph) {
+	int totalTransitTime(Graph graph) {
 		// TODO Auto-generated method stub
 		return 0;
 	}
 
 	// The method for task 2 
-	int cheapestNetwork(int[][] array_graph) {
+	int cheapestTransitTime(Graph graph) {
 		// TODO Auto-generated method stub
 		return 0;
 	}
 
 	// The method for task 3 
-	int savedAmount(Graph graph) {
+	int timeIncrease(Graph graph) {
 		// TODO Auto-generated method stub
 		return 0;
 	}
+	
 }
